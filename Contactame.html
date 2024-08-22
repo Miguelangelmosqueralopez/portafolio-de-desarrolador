@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="CENTRO">
+    <section class="border">
+        <h1>CONTACTAME</h1>
+        <form class="form">
+            <fieldset>
+                <legend>Bienvenido mi estimado usuario, por medio de este formulario enviame una solicitud de tu proyecto y en seguidad me comunicare contigo.</legend>
+                <div>
+                
+                    <label for="nombre">Ingresa tu Nombre</label> <br>
+                    <input id="nombre" type="text" name="nombre" placeholder="Miguel Angel" required>
+                    </div>
+
+                <div>
+                    <label for="apellido">Ingresa tu Apellido</label> <br>
+                    <input id="apellido" type="text" placeholder="Mosquera Lopez">
+                </div>
+
+                <div>
+                    <label for="ciudad">Digita tu Ciudad</label> <br>
+                    <input id="ciudad" type="text">
+                </div>
+            </fieldset>
+        
+        <div>
+            <fieldset>
+                <legend>Seleccion su Genero</legend>
+            <input  type="radio" name="genero" value="masculino">Masculino
+            <input  type="radio" name="genero" value="femenino">Femenino
+            <input  type="radio" name="genero" value="no sabe">Binario
+        </div>
+
+        <div>
+            <label for="pais">Selecciona tu Pais</label>
+            <select name="pais" id="pais">
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Chile">Chile</option>
+                <option value="Canada">Canada</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Argentina">Argentina</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mensaje">Escriba su Problematica </label> <br>
+            <textarea name="mensaje" id="mensaje">Escriba Aqui </textarea>
+        </div>
+
+        <div>
+            <label for="email">Ingrese su Email</label> <br>
+            <input id="email" type="email" required>
+        </div>
+
+        <div>
+            <label for="contraseña">Ingrese su Contraseña</label> <br>
+            <input id="contraseña" type="password" required>
+        </div>
+
+        <button>ENVIAR</button>
+        </form>
+    </section>
+</body>
+</html>
